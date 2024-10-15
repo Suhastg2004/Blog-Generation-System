@@ -8,8 +8,8 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import SequentialChain
 from langchain.agents import initialize_agent, Tool
 from langchain.tools.wikipedia.tool import WikipediaQueryRun
-from googleapiclient.discovery import build  # Google API client
-from constants import huggingface_key, google_api_key, cse_id  # Importing the API keys from constants.py
+from googleapiclient.discovery import build  # Google API client 
+from constants import huggingface_key, google_api_key, cse_id  # Importing teh api keys 
 
 # Set Hugging Face API key
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = huggingface_key
