@@ -22,8 +22,8 @@ Ensure you have the following installed before starting:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/blog-generation-system.git
-   cd blog-generation-system
+   git clone https://github.com/Suhastg2004/Blog-Generation-System.git
+   cd Blog-Generation-System
 2.Set up a virtual environment:
 
 python3 -m venv .venv
